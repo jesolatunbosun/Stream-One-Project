@@ -1,0 +1,85 @@
+
+/*...........................row 1...............................*/
+#row1 {
+	background-color: #222;
+	padding-top: 15px;
+}
+
+.headerImgCaption {
+	text-align: center;
+	background-color: #222; /*shade of grey*/
+	color: #fff; /*white*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.headerImgCaption h3 {
+	text-transform: capitalize; /*transforms first character of each word to uppercase*/
+	margin: 0px 0px; 
+}
+
+/*...........................row 3.............................*/
+#row3 {
+	background-color: #e2e2e2; /*shade of grey*/
+}
+
+#row3 h3 {
+	text-align: center;
+	background-color: #34537a;
+	color: white;
+	border-radius: 6px;
+	padding: 10px 5px;
+	margin:20px 0px;
+}
+
+#row3 p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 2rem; /*root html font is 10px. 2rem is 20px*/
+	font-family: 'Roboto', sans-serif;
+}
+
+#row3 button {
+	background-color: #B22222; /*Firebrick*/
+	border-color: #B22222;
+	margin-bottom: 20px;
+}
+
+#row3 a {
+	text-decoration: none;
+	color:white;
+}
+
+/*...........................row 4.............................*/
+#row4 {
+	background-color: #e2e2e2; /*shade of grey*/
+}
+
+#row4 h3 {
+	text-align: center;
+	background-color: #34537a;
+	color: white;
+	border-radius: 6px;
+	padding: 10px 5px;
+	margin:20px 0px;
+}
+
+#row4 p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 2rem; /*root html font is 10px. 2rem is 20px*/
+	font-family: 'Roboto', sans-serif;
+}
+
+#row4 button {
+	background-color: #B22222; /*Firebrick*/
+	border-color: #B22222;
+	margin-bottom: 20px;
+}
+
+#row4 a {
+	text-decoration: none;
+	color:white;
+}
+
+

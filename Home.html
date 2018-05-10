@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>FoodLife Cookery School</title>
+	<!--Set up viewpoert for responsive design-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Load bootstrap CSS-->
+	<link type="text/css" rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<!--Load external CSS-->
+	<link rel="stylesheet" type="text/css" href="css/homeForm.css"> 	<!--load newsletter signup form-->
+	<link rel="stylesheet" type="text/css" href="css/homeImages.css">	<!--load homepage images-->
+	<link rel="stylesheet" type="text/css" href="css/siteFooter.css"> 	<!--load footer-->
+	<link rel="stylesheet" type="text/css" href="css/homeFinal.css"> 	<!--load remaining css styling-->
+	<!--load external script-->
+	<link rel="stylesheet" type="text/javascript" href="#">
+
+</head>
+<body>
+<!--....................Main Navigation............................-->
+	<nav class="navbar navbar-inverse">
+		<div class="container"> <!-- adds margin to brand and links-->
+			<div class="navbar-header">
+				<a class="navbar-brand" href="">FOODLIFE COOKERY SCHOOL</a>
+				<!-- Responsive Navigation Menu Button-->
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapsingList">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<!--........Navigation Links With Responsive Classes...-->
+			<ul id="myCollapsingList" class="nav navbar-nav navbar-right collapse navbar-collapse">
+				<li><a href="Home.html">HOME</a></li>
+				<li><a href="Courses.html">COURSES</a></li>
+				<li><a href="Events.html">EVENTS</a></li>
+				<li><a href="#">CONTACTS</a></li>
+			</ul>
+		</div>
+	</nav>
+<!--...................Content Area...............................-->
+
+<div class="container">
+	<!--...................row 1, Main Pic..............-->
+	
+		<div class="row" id="row1">
+			<div class="col-sm-12 col-md-12">
+				<img class="img-responsive" src="images/home/home1.jpg" alt="Fruits and Vegetables">
+				<div class="headerImgCaption">
+					<h3><b>Learn to Cook Great Food with Food Life Cookery School<b></h3>
+				</div>	
+			</div>
+		</div>
+	
+	<!--...................row 2...............-->
+	
+		<div class="row" id="row2">
+			<div class="col-sm-12 col-md-12" id="welcome">
+				<p>Whether a novice or pro, there's something for everybody at the FoodLife Cookery School. 
+				FoodLife is the Cookery arm of the FoodGivesLife Group which specialise in nutrition and gastronomy. </p>
+				<p>The mission of FoodLife is to equip the general public with the knowledge and skills 
+				to produce nutritious meals to facilitate a healthy lifestyle.</p>
+				<button class="btn btn-lg btn-default"><a href="#"><b>LEARN MORE</b></a></button>				
+			</div>
+		</div>
+	
+	<!--...................row 3...............-->
+	
+		<div class="row" id="row3">
+			<div class="col-sm-12 col-md-12" id="courseIntro">
+				<h3><b>FANTASTIC FOOD FROM AROUND THE GLOBE</b></h3>
+				<p>Our lessons are designed to be hands-on, informative, engaging and yet still keeping an informal space, where you can learn and create freely. Our cooking environments are top-notch and always meet high hygiene standards.</p>
+				<button class="btn btn-lg btn-default"><a href="Courses.html"><b>VIEW COURSES</b></a></button>
+			</div>
+		</div>		
+	
+	<!--...................row 4, Food Pics..............-->
+	
+		<div class="row" id="row4">
+			<div class="col-sm-6 col-md-6" id="pic1">
+				<img class="img-responsive" src="images/home/home1.1.jpg" alt="Indian Food">	
+			</div>
+			<div class="col-sm-6 col-md" id="pic2">
+				<img class="img-responsive" src="images/home/home2.jpg" alt="Moroccan Food">
+			</div>
+		</div>
+	
+	<!--...................row 5, Food Pics...............-->
+	
+		<div class="row" id="row5">
+			<div class="col-sm-6 col-md-6" id="pic3">
+				<img class="img-responsive" src="images/home/home3.jpg" alt="Pan Asian Food">
+			</div>
+			<div class="col-sm-6 col-md-6" id="pic4">
+				<img class="img-responsive" src="images/home/home4.jpg" alt="Continental Food">
+			</div>
+		</div>
+	
+	<!--................row 6, Newsletter Signup...........-->
+	
+		<div class="row" id="row6">
+			<div class="col-sm-12 col-md-12" id="formBox">
+				<h3><b>Sign Up to Our Newsletter</b></h3>
+				<form class="form-inline">
+					<div class="form-group">
+						<label for="inputFullname" id="Fname">Fullname:</label> 
+						<input type="text" class="form-control" placeholder="Fullname" id="userFname">
+					</div>
+					<div class="form-group">
+						<label for="inputEmail" id="Email">Email:</label>
+						<input type="email" class="form-control" placeholder="Email" id="userEmail">
+					</div>
+					<div class="form-group">
+						<button type="submit" class="btn btn-lg" id="formSubmit"><b>SUBSCRIBE</b></button>
+					</div>
+				</form>
+			</div>
+		</div>	
+</div>
+
+	<!--........................footer...................-->
+	<footer>
+		<div class="upperFooter">
+			<ul class="list-unstyled list-inline">
+				<li><span class="glyphicon glyphicon-earphone"></span><a href="#">  020 0770 07YX</a></li>
+				<li><span class="glyphicon glyphicon-envelope"></span><a href="#">  letscook@foodlifecs.com</a></li>
+				<li><span class="glyphicon glyphicon-book"></span><a href="#">  T&C's</a></li>
+			</ul>
+		</div>
+		<div class="lowerFooter">
+			<h4>Copyright © 2018 FoodLife Cookery School</h4>
+		</div>
+	</footer>
+
+</body>
+
+<!--..................Load jQuery Library from jQuery CDN (content delivery network)..........................-->
+
+<!-- The integrity and crossorigin attributes are used for Subresource Integrity (SRI) checking. This allows browsers 
+to ensure that resources hosted on third-party servers have not been tampered with. Use of SRI is recommended as a 
+best-practice, whenever libraries are loaded from a third-party source. See srihash.org-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<!--Load bootstrap javascript-->
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+</html>

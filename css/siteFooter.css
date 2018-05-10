@@ -1,0 +1,34 @@
+
+footer {
+	color: #fff;
+}
+
+.upperFooter {
+	text-align: center;
+	font-size: 1.5rem; /* default html font size is 10px. so 1.5rem is 15px*/
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: #222;
+}
+
+.upperFooter ul li a {
+	color: #fff;
+
+}
+
+.upperFooter ul li {
+	margin-left: 25px;
+}
+
+.lowerFooter h4 {
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #9d9d9d;
+	font-size: 14px;
+}
+
+.lowerFooter {
+	background-color: #333;
+}

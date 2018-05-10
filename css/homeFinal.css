@@ -1,0 +1,76 @@
+
+/*..............................row 1 ................................*/
+#row1 {
+	background-color: #222;
+	padding-top: 20px;
+}
+
+/*..............................row 2 ................................*/
+#row2 {
+	background-color: #333;
+}
+
+#welcome {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	font-size: 2rem; /*root html font size is 10 px. 2rem is 20px;*/
+}
+
+#welcome p {
+	text-align: center;
+}
+
+#welcome button {
+	background-color: #B22222; /*Firebrick*/
+	border-color: #B22222;
+	margin-top: 10px;
+}
+
+#welcome button a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/*..............................row 3 .................................*/
+#row3 {
+	background-color: #008080; /*teal*/
+}
+
+#courseIntro {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	font-size: 2rem; /*root html font size is 10 px. 2rem is 20px;*/
+}
+
+#courseIntro h3 {
+	margin-top: 0px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#courseIntro p {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#courseIntro button {
+	background-color: #B22222; /*Firebrick*/
+	border-color: #B22222;
+}
+
+#courseIntro button a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/*................................row 4 ...............................*/
+#row4 {
+	background-color: #222;
+}
+
+/*.................................row 5 ..............................*/
+#row5 {
+	background-color: #222;
+}

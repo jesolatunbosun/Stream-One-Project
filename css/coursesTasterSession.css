@@ -1,0 +1,32 @@
+
+/*...............................row 2...............................*/
+#row2 {
+	background-color: #333;
+}
+
+#taster {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: #fff;
+}
+
+#taster p {
+	text-align: center;
+	font-size: 2rem; /*root html font size is 10 px. 2rem is 20px;*/
+	font-family: 'Roboto', sans-serif;
+	padding: 20px 0px;
+	margin-bottom: 0px;
+
+}
+
+#taster button {
+	background-color: #B22222; /*Firebrick*/
+	border-color: #B22222;
+}
+
+#taster button a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
