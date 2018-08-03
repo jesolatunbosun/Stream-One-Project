@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>FoodLife Cookery School</title>
+	<!--Set up viewpoert for responsive design-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Load bootstrap CSS-->
+	<link type="text/css" rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<!--Load external CSS-->
+	<link rel="stylesheet" type="text/css" href="css/siteFooter.css">	<!--footer css-->
+	<link rel="stylesheet" type="text/css" href="css/contactsForm.css"> <!--Load Newsletter css-->
+	<link rel="stylesheet" type="text/css" href="css/contactsFinal.css"> <!--remaining css styling-->
+	<!--load external script-->
+	<link rel="stylesheet" type="text/javascript" href="#">
+
+</head>
+<body>
+<!--....................Main Navigation.............-->
+	<nav class="navbar navbar-inverse">
+		<div class="container"> <!-- adds margin to brand and links-->
+			<div class="navbar-header">
+				<a class="navbar-brand" href="">FOODLIFE COOKERY SCHOOL</a>
+				<!-- Responsive Navigation Menu Button-->
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapsingList">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<!--........Navigation Links With Responsive Classes...-->
+			<ul id="myCollapsingList" class="nav navbar-nav navbar-right collapse navbar-collapse">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="Courses.html">COURSES</a></li>
+				<li><a href="Events.html">EVENTS</a></li>
+				<li><a href="Contacts.html">CONTACTS</a></li>
+			</ul>
+		</div>
+	</nav>
+<!--...................Content Area...............................-->
+
+<div class="container">
+	<!--...................row 1, location map...............-->
+	<div class="row" id="row1">
+		<div class="col-sm-12 col-lg-12">
+			<img class="img-responsive" src="images/contacts/map1.png">
+		</div>
+	</div>
+	<!--...................row 2, contact...............-->
+	<div class="row" id="row2">
+		<div class="col-sm-6 col-lg-6">
+			<h2>GET IN TOUCH</h2>
+			<article>			
+				<h4>ADDRESS:</h4>
+				<p id="address">
+					FoodGivesLife Ltd,<br><br>
+					FoodLife Cookery School,<br><br>
+					London,<br><br>
+					Battersea,<br><br>
+					SW11 XYZ<br><br>
+				</p>
+				<h4>Contact us via Telephone and Email:</h4>
+				<p>	
+					Telephone: 020 0770 077X<br><br>
+					Email: letscook@foodlifecs.com 
+				</p>
+			</article>
+		</div>
+
+		<div class="col-sm-6 col-lg-6">
+			<h2>GOT A QUESTION?</h2>
+			<form>
+				<div class="form-group">
+					<label for="inputFullname" id="contactFname">Fullname:</label>
+					<input class="form-control" type="text" placeholder="fullname" id="inputFname">
+				</div>
+				<div class="form-group">
+					<label for="inputEmail" id="contactEmail">Email:</label>
+					<input class="form-control" type="email" placeholder="email" id="inputEmail">
+				</div>
+				<div class="form-group">
+					<label for="select">Subject:</label>
+					<select class="form-control" id="selectList">
+						<option></option>
+						<option>Login</option>
+						<option>Newsletter Signup</option>
+						<option>Courses/Sessions</option>
+						<option>Payments</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="comment">Comment:</label>
+					<textarea class="form-control" rows="5" id="comment"></textarea>
+				</div>
+				<button type="submit" class="btn btn-lg" id="sendButton"><a href="#">Send</a></button>
+			</form>
+		</div>
+
+	</div>
+	<!--...................row 3, nwesletter sign up...............-->
+	<div class="row" id="row3">
+		<div class="col-sm-12 col-md-12" id="formBox">
+			<h3><b>Sign Up to Our Monthly Food Newsletter</b></h3>
+			<form class="form-inline">
+				<div class="form-group">
+					<label for="inputFullname" id="Fname">Fullname:</label> 
+					<input type="text" class="form-control" placeholder="Fullname" id="userFname">
+				</div>
+				<div class="form-group">
+					<label for="inputEmail" id="Email">Email:</label>
+					<input type="email" class="form-control" placeholder="Email" id="userEmail">
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn btn-lg" id="formSubmit"><b>Subscribe</b></button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</div>
+	<!--........................................................-->
+	<footer>
+		<div class="upperFooter">
+			<ul class="list-unstyled list-inline">
+				<li><span class="glyphicon glyphicon-earphone"></span><a href="#">  020 0770 077X</a></li>
+				<li><span class="glyphicon glyphicon-envelope"></span><a href="#">  letscook@foodlifecs.com</a></li>
+				<li><span class="glyphicon glyphicon-book"></span><a href="#">  T&C's</a></li>
+			</ul>
+		</div>
+		<div class="lowerFooter">
+			<h4>Copyright © 2018 FoodLife Cookery School</h4>
+		</div>
+	</footer>
+
+</body>
+
+<!--..................Load jQuery Library from jQuery CDN (content delivery network)..........................-->
+
+<!-- The integrity and crossorigin attributes are used for Subresource Integrity (SRI) checking. This allows browsers 
+to ensure that resources hosted on third-party servers have not been tampered with. Use of SRI is recommended as a 
+best-practice, whenever libraries are loaded from a third-party source. See srihash.org-->
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<!--Load bootstrap javascript-->
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+</html>

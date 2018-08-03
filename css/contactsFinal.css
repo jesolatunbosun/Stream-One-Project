@@ -1,0 +1,39 @@
+
+/*.............................row 1............................*/
+#row1 {
+	background-color: #222;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+/*.............................row 2............................*/
+#row2 {
+	background-color: #333;
+	color: white;
+}
+
+#row2 h2 {
+	text-align: center;
+}
+
+#row2 article {
+	text-align: center;
+}
+
+#row2 h2 {
+	text-decoration: underline;
+}
+
+#sendButton {
+	background-color: #B22222; /*Firebrick*/
+	color:white;
+	border-color: #B22222;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+
+#sendButton a {
+	text-decoration: none;
+	color: white;
+}

@@ -21,17 +21,6 @@
 	text-align: center;
 }
 
-#welcome button {
-	background-color: #B22222; /*Firebrick*/
-	border-color: #B22222;
-	margin-top: 10px;
-}
-
-#welcome button a {
-	text-decoration: none;
-	color: #fff;
-}
-
 /*..............................row 3 .................................*/
 #row3 {
 	background-color: #008080; /*teal*/
